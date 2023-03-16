@@ -1,6 +1,6 @@
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  font-size: 25px;
 }
 
 .navbar-collapse {
@@ -26,7 +26,8 @@ h1 {
 }
 
 .hero-principal {
-  padding: 3rem;
+  padding: 1rem;
+  margin-bottom: 60px;
 }
 
 .hero-principal h2 {
@@ -35,9 +36,12 @@ h1 {
 }
 
 .hero-image {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  width: 300px;
+  height: 300px;
+  margin-top: -30px;
+}
+.hero-text {
+  margin-top: 25px;
 }
 
 .seccion-oscura {
@@ -46,23 +50,122 @@ h1 {
 }
 
 .sobre-mi {
-  height: 500px;
+  height: 420px;
   padding: 10px;
 }
 
 .sobre-mi .contenedor {
-  max-width: 600px;
+  max-width: 500px;
   text-align: center;
 }
 
 .seccion-titulo {
   font-size: 2rem;
+  margin-top: 00px;
   padding: 15px 0;
   font-family: "Rubik Dirt", cursive;
 }
 
 .seccion-texto {
   font-size: 1rem;
+}
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.experiencia i {
+  font-size: 1.8rem;
+  color: aliceblue;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: #f5f6f7;
+}
+
+.badges-contenedor {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 2px;
+}
+
+.proyectos-recientes {
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  
+  display: block;
+  transition: all 0.2s ease;
+  border: solid 1px grey;
+  padding: 0%;
+}
+
+.proyectos-contenedor {
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+ xxxxxxx
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.3;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.seccion-descripcion {
+  font-size: 1 rem;
+  color: #584e4e;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay i {
+  color: black;
+  font-size: 30px;
+  margin: 20px;
 }
 
 /*RESPONSIVE*/
@@ -72,8 +175,8 @@ h1 {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 400px) {
   .hero-inferior-imagen {
-    max-width: 600px;
+    max-width: 400px;
   }
 }

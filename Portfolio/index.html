@@ -18,6 +18,10 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <!--CSS-->
     <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -71,8 +75,10 @@
         class="hero-principal d-flex flex-column justify-content-center align-items-center"
       >
         <img class="hero-image" src="images/branco.png" alt="Foto de Joaquin" />
-        <h1>Hola, soy Joaquin Ruiz Diaz</h1>
-        <h2>Full Stack Web Developer</h2>
+        <div class="hero-text">
+          <h1>Hola, soy Joaquin Ruiz Diaz</h1>
+          <h2>Full Stack Web Developer</h2>
+        </div>
       </div>
       <div class="hero-inferior">
         <img
@@ -96,21 +102,158 @@
           metodologías Scrum.
         </p>
         <p class="seccion-texto">
-          En mis proyectos, he trabajado en el diseño y desarrollo de
-          aplicaciones interactivas, utilizando componentes basados en
-          estándares para garantizar la calidad y la compatibilidad de la
-          aplicación y siempre pensando en la experiencia del usuario.
-        </p>
-        <p class="seccion-texto">
           Soy una persona comunicativa, analítica, organizada y que disfruta el
           trabajo en equipo. Me mantengo en continua búsqueda por desarrollarme
           incorporando nuevos conocimientos, tecnologías y metodologías de
           trabajo eficientes.
         </p>
-        <p class="seccion-texto">
-          Tengo fluidez en el idioma portugués y manejo básico del idioma
-          inglés, pero estoy estudiando para seguir mejorando.
-        </p>
+      </div>
+    </section>
+
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">EXPERIENCIA</p>
+            <p>
+              Soy Full Stack Web Developer con experiencia en Javascript, React,
+              Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS y
+              TypeScript. También tengo experiencia utilizando herramientas como
+              Git, Slack y Trello, y con metodologías ágiles como Scrum.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Redux</span>
+              <span class="badge text-bg-primary">NodeJS</span>
+              <span class="badge text-bg-primary">Express</span>
+              <span class="badge text-bg-primary">Sequelize</span>
+              <span class="badge text-bg-primary">Postgre</span>
+              <span class="badge text-bg-primary">SQL</span>
+            </div>
+          </div>
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">PROYECTOS</p>
+            <p>
+              En mis proyectos, he trabajado en el diseño y desarrollo de
+              aplicaciones interactivas, utilizando componentes basados en
+              estándares para garantizar la calidad y la compatibilidad de la
+              aplicación y siempre pensando en la experiencia del usuario.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"
+                >Full Stack - Countries App</span
+              >
+              <span class="badge text-bg-primary">
+                Front End - Rick & Morty App
+              </span>
+              <span class="badge text-bg-primary">Bootstrap - Portfolio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis ultimos proyectos</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos de los proyectos que he creado recientemente
+      </h3>
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--proyecto-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/countries1.jpg" alt="Countries App" />
+              <div class="overlay">
+                <p>Countries</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/joaquingrd/PI-Countries-Joaquin-Ruiz-Diaz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                  <a
+                    href="https://pi-countries-two.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-laptop"> </i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--fin proyecto-->
+          <!--proyecto-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/Rick&Morty.jpg" alt="Rick&Morty App" />
+              <div class="overlay">
+                <p>Rick & Morty</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/joaquingrd/PI-Countries-Joaquin-Ruiz-Diaz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--fin proyecto-->
+          <!--proyecto-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/Porfolio.jpg" alt="Portfolio en Bootstrap" />
+              <div class="overlay">
+                <p>Bootstrap</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/joaquingrd/PI-Countries-Joaquin-Ruiz-Diaz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+               
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--fin proyecto-->
+          <!--proyecto-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/clone.jpg" alt="Countries App" />
+              <div class="overlay">
+                <p>Clone fCC</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/joaquingrd/PI-Countries-Joaquin-Ruiz-Diaz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"> </i>
+                  </a>
+          
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--fin proyecto-->
+        </div>
       </div>
     </section>
 
