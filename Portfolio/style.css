@@ -64,6 +64,9 @@ h1 {
   margin-top: 00px;
   padding: 15px 0;
   font-family: "Rubik Dirt", cursive;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .seccion-texto {
@@ -168,6 +171,9 @@ h1 {
 
 .proyect {
   padding: 40px 40px 80px 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .proyect .carousel {
@@ -175,14 +181,14 @@ h1 {
 }
 
 .carousel-item {
-  height: 440px;
+  height: 445px;
+  margin-top: 10px;
 }
 
 .iconos-carrusel i {
-  margin-top: 100px;
+  margin-bottom: -40px;
   font-size: 1.6rem;
   color: #0a0a23;
-  margin: 10px;
 }
 
 .carousel-caption h2 {
@@ -191,7 +197,7 @@ h1 {
 }
 
 .carousel-control-prev {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(250, 250, 250, 0.39);
   margin-top: 170px;
   margin-left: 10px;
   width: 40px;
@@ -200,26 +206,41 @@ h1 {
 }
 
 .carousel-control-next {
-  background-color: rgb(250, 250, 250);
+  background-color: rgba(250, 250, 250, 0.39);
   margin-top: 170px;
   margin-right: 10px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+}
+
+.contacto {
+  height: 200px;
+  display: flex;
+}
+
+.contacto-iconos i {
+  font-size: 30px;
+  width: 400px;
+  margin: 30px;
+  color: white;
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 767px) {
   .navbar-brand {
     display: none;
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 600px) {
   .hero-inferior-imagen {
     max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  .carousel-item {
+    max-height: 350px;
   }
 }
